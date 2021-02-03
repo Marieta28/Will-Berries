@@ -1,0 +1,364 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+}
+.navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navigation-link {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #939699;
+}
+.button {
+  padding: 10px 20px;
+  background: #4592ff;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.button-text,
+.card-button-icon {
+  margin-left: 10px;
+}
+.slide {
+  padding-top: 90px;
+  padding-bottom: 110px;
+  min-height: 568px;
+}
+.slide-1 {
+  background: #b4d1e0 url(../img/slide-image-1.png) no-repeat top right 20%;
+}
+.slide-2 {
+  background: #eab0ec url(../img/NicePng_naruto-png_59551.png) no-repeat top
+    right 20%;
+}
+.slide-3 {
+  background: #e7e3e4 url(../img/NicePng_horizontal-stripes-png_7955035.png)
+    no-repeat top right 20%;
+}
+.slide-4 {
+  background: #e7e3e4 url(../img/Dodgers-Game-of-Thrones-T-Shirt-PNG-Image.png)
+    no-repeat top right -20%;
+}
+.lable {
+  background: #3dc47e;
+  border-radius: 3px;
+  border: 0;
+  padding: 5px 12px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 530;
+}
+.slide-title {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 70px;
+  color: #262d33;
+  max-width: 458px;
+}
+.slide-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  color: #4b5157;
+  max-width: 335px;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.slider {
+  position: relative;
+}
+.slider-nav {
+  z-index: 99;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+.slider-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+header.container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.card {
+  min-height: 370px;
+}
+.card-1,
+.card-2,
+.card-3 {
+  background-size: cover;
+  border-radius: 10px;
+  border: none;
+  padding-right: 46px;
+  padding-left: 46px;
+}
+.card-1,
+.card-2 {
+  padding-bottom: 80px;
+  padding-top: 60px;
+}
+.card-1 {
+  background: #e3e2e3 url(../img/card-image-1.jpg) no-repeat top right;
+}
+.card-2 {
+  background: #e3e2e3 url(../img/card-image-2.jpg) no-repeat center center;
+  background-size: cover;
+}
+.card-title {
+  font-family: "Roboto Slab" serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #262d33;
+  max-width: 221.14px;
+  margin-bottom: 15px;
+}
+.card-2 .card-title {
+  color: #fff;
+}
+.card-text {
+  max-width: 175.49px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4b5157;
+  margin-bottom: 25px;
+}
+.card-2 .card-text {
+  color: #fff;
+  opacity: 0.85;
+}
+.card-3 {
+  background: #ccd5e6 url(../img/card-image-3.png) no-repeat top right 20%;
+  padding-top: 35px;
+}
+.card-3 .card-title {
+  color: #262d33;
+  font-family: "Roboto Slab" serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+  max-width: 418.84px;
+  padding-bottom: 0px;
+  margin-top: 30px;
+}
+.card-3 .card-text {
+  max-width: 319.46px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.card-4 {
+  background: #ff4f52 url(../img/card-image-4.png) no-repeat top right;
+  border-radius: 10px;
+  border: none;
+  padding-top: 35px;
+  padding-left: 25.86px;
+  padding-right: 36px;
+}
+.card-4 .card-title {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #fff;
+  max-width: 209.95px;
+}
+.card-4 .card-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffc4c9;
+}
+.card-4 .card-button-price {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+}
+.section-title {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 30px;
+  color: #262d33;
+}
+.more {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  color: #262d33;
+  text-decoration: none;
+  padding: 10px;
+}
+.goods-card {
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  text-align: center;
+}
+.label {
+  left: 18px;
+  top: 18px;
+  position: absolute;
+  padding: 5px 12px;
+  background: #3dc47e;
+  border-radius: 3px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.goods-title {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  color: #262d33;
+  margin-top: 15px;
+}
+.goods-description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4b5157;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+.goods-price {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 30px;
+  color: #262d33;
+}
+
+.footer-manu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer {
+  background: #8f79d4;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+.footer-menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+.footer-menu-link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+}
+.footer-text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #e7d9ff;
+}
+.footer-social {
+  margin-left: 25px;
+}
+.social-link:not(:last-child) {
+  margin-right: 15px;
+}
+.footer-line {
+  color: #fff;
+  opacity: 0.5;
+}
+.top-link {
+  padding: 10px;
+  text-decoration: none;
+}
+.top-link-text {
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin-right: 30px;
+}
+.icon-top {
+  border: solid #fff 1px;
+  border-radius: 50%;
+  padding: 15px;
+}
+@media (max-width: 1200px) {
+  .slide-1,
+  .slide-2,
+  .slide-3,
+  .slide-4 {
+    background-size: cover;
+  }
+  .slide-4 {
+    background-position: left left;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .card-3 {
+    background-size: cover;
+  }
+}
+@media (max-width: 999px) {
+  .slide-4 {
+    background-position: top right 300%;
+  }
+  .slider-nav {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .slide-title {
+    font-size: 36px;
+    line-height: 1.4;
+    margin-bottom: 0px;
+  }
+
+  .card {
+    background-position: left top;
+    min-height: 300px;
+  }
+  .card-3 {
+    padding-bottom: 30px;
+  }
+  .card-4 {
+    background-position: right top;
+  }
+}
